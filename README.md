@@ -1,6 +1,12 @@
 # terraform-vmware-bigip
 bigip module for vmware vcenter
 
+provides instances in vcenter and outputs templates for use with a pipeline,ansible or the f5 [vscode extension](https://marketplace.visualstudio.com/items?itemName=F5DevCentral.vscode-f5).
+
+- f5 [declarative-onboarding](https://clouddocs.f5.com/products/extensions/f5-declarative-onboarding/latest/)
+- f5 [bigip-runtime-init](https://github.com/F5Networks/f5-bigip-runtime-init)
+
+
 examples:
 - [single_device](./examples/single_device/readme.md)
 - [two_devices](./examples/two_devices/readme.md)
