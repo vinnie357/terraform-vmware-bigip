@@ -1,9 +1,9 @@
-# terraform-gcp-vmware
+# terraform-vmware-bigip
 bigip module for vmware vcenter
 
 
 # requirements
-eample ova:
+example ova:
 
 [BIGIP-15.1.2-0.0.9](
 https://downloads.f5.com/esd/serveDownload.jsp?path=/big-ip/big-ip_v15.x/15.1.2/english/15.1.2_virtual-edition/&sw=BIG-IP&pro=big-ip_v15.x&ver=15.1.2&container=15.1.2_Virtual-Edition&file=BIGIP-15.1.2-0.0.9.ALL-vmware.ova)
