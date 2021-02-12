@@ -1,7 +1,9 @@
 # terraform-vmware-bigip
 bigip module for vmware vcenter
 
-
+examples:
+- [single_device](./examples/single_device/readme.md)
+- [two_devices](./examples/two_devices/readme.md)
 # requirements
 example ova:
 
