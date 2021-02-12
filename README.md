@@ -58,3 +58,11 @@ shutdown -h now
 | instances | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## development
+```bash
+# stage changes
+git add .
+#manual pre-commit test
+pre-commit run -a -v
+```
