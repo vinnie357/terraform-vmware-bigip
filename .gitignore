@@ -1,3 +1,8 @@
+# project
+admin.auto.tfvars
+.terraform.lock.hcl
+do_*.json
+onboard_*.sh
 # Local .terraform directories
 **/.terraform/*
 
