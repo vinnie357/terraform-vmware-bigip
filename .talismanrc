@@ -20,7 +20,7 @@ fileignoreconfig:
 - filename: .devcontainer/scripts/setup-user.sh
   checksum: 8f386bef564e7a1c866ca34e29ee37e06972ada3912c7b3dc2c62bff8a609212
 - filename: README.md
-  checksum: 365954059ec787f8f450c57d2806209e314a08a360c7af14a46e836e041ff921
+  checksum: 8d820cd232f58f4d1d7f66fd3e586e2304010b3eea2682035c9f25448d436b66
 - filename: examples/single_device/main.tf
   checksum: 241d8d2932c6b6fa5ce1cf38e2e18f391dd82eaca7c0a9378a10c7aac1221764
 - filename: examples/two_devices/admin.auto.tfvars.example
@@ -29,3 +29,7 @@ fileignoreconfig:
   checksum: 8bcd816c5a07073dd86c035f59bcd87d489cb9a0cdcc69701dda24cd1e6800b0
 - filename: atc.tf
   checksum: 46fb1e1792020ebcac817caeeb971f1b157121e11b1d367f277dc92250716699
+- filename: examples/single_device/readme.md
+  checksum: cf95d158d209bc27e205ce901aa2fb9beb05fc4125b7f679dbed27718c0cf115
+- filename: examples/two_devices/readme.md
+  checksum: 0b862a8e60a30588b158f871ea7094f03455aa9a5628d4100175cd0200c0ed7a

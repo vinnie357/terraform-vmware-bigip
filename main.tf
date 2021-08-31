@@ -79,6 +79,8 @@ resource "vsphere_virtual_machine" "instance" {
     template_uuid = data.vsphere_virtual_machine.template[each.key].id
     linked_clone  = each.value.vm_linked_clone
     customize {
+      // weird provider behavior where customization works but fails instantly waiting on vmtools.
+      timeout = -1
       linux_options {
         host_name = "${each.value.name}-${each.value.vm_environment}"
         domain    = each.value.domain
