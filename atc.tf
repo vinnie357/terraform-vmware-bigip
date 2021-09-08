@@ -9,7 +9,7 @@ data "template_file" "do_json" {
     license               = each.value.license
     bigip_admin_password  = var.bigip_admin_password
     bigip_admin           = each.value.adminUserName
-    dnsServer             = each.value.ntpServerList
+    dnsServer             = each.value.dnsServerList
     dnsSuffix             = each.value.domain
     ntpServer             = each.value.ntpServerList
     timezone              = each.value.timeZone
